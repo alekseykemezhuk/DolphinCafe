@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D1604BE32E252FB4005C314F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1604BC42E252FB2005C314F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1604BCB2E252FB2005C314F;
+			remoteInfo = DolphinCafe;
+		};
+		D1604BED2E252FB4005C314F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1604BC42E252FB2005C314F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1604BCB2E252FB2005C314F;
+			remoteInfo = DolphinCafe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1604BCC2E252FB2005C314F /* DolphinCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DolphinCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1604BE22E252FB4005C314F /* DolphinCafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DolphinCafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1604BEC2E252FB4005C314F /* DolphinCafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DolphinCafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D1604BF42E252FB4005C314F /* Exceptions for "DolphinCafe" folder in "DolphinCafe" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/Info.plist,
+				Tests/DolphinCafeTests/DolphinCafeTests.swift,
+				Tests/DolphinCafeUITests/DolphinCafeUITests.swift,
+				Tests/DolphinCafeUITests/DolphinCafeUITestsLaunchTests.swift,
+			);
+			target = D1604BCB2E252FB2005C314F /* DolphinCafe */;
+		};
+		D1C8BF0E2E2656BD0035DBCA /* Exceptions for "DolphinCafe" folder in "DolphinCafeTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/DolphinCafeTests/DolphinCafeTests.swift,
+			);
+			target = D1604BE12E252FB4005C314F /* DolphinCafeTests */;
+		};
+		D1C8BF0F2E2656BD0035DBCA /* Exceptions for "DolphinCafe" folder in "DolphinCafeUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/DolphinCafeUITests/DolphinCafeUITests.swift,
+				Tests/DolphinCafeUITests/DolphinCafeUITestsLaunchTests.swift,
+			);
+			target = D1604BEB2E252FB4005C314F /* DolphinCafeUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D1604BCE2E252FB2005C314F /* DolphinCafe */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D1604BF42E252FB4005C314F /* Exceptions for "DolphinCafe" folder in "DolphinCafe" target */,
+				D1C8BF0E2E2656BD0035DBCA /* Exceptions for "DolphinCafe" folder in "DolphinCafeTests" target */,
+				D1C8BF0F2E2656BD0035DBCA /* Exceptions for "DolphinCafe" folder in "DolphinCafeUITests" target */,
+			);
+			path = DolphinCafe;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1604BC92E252FB2005C314F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1604BDF2E252FB4005C314F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1604BE92E252FB4005C314F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1604BC32E252FB2005C314F = {
+			isa = PBXGroup;
+			children = (
+				D1604BCE2E252FB2005C314F /* DolphinCafe */,
+				D1604BCD2E252FB2005C314F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1604BCD2E252FB2005C314F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1604BCC2E252FB2005C314F /* DolphinCafe.app */,
+				D1604BE22E252FB4005C314F /* DolphinCafeTests.xctest */,
+				D1604BEC2E252FB4005C314F /* DolphinCafeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1604BCB2E252FB2005C314F /* DolphinCafe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1604BF52E252FB4005C314F /* Build configuration list for PBXNativeTarget "DolphinCafe" */;
+			buildPhases = (
+				D1604BC82E252FB2005C314F /* Sources */,
+				D1604BC92E252FB2005C314F /* Frameworks */,
+				D1604BCA2E252FB2005C314F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D1604BCE2E252FB2005C314F /* DolphinCafe */,
+			);
+			name = DolphinCafe;
+			packageProductDependencies = (
+			);
+			productName = DolphinCafe;
+			productReference = D1604BCC2E252FB2005C314F /* DolphinCafe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1604BE12E252FB4005C314F /* DolphinCafeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1604BFA2E252FB4005C314F /* Build configuration list for PBXNativeTarget "DolphinCafeTests" */;
+			buildPhases = (
+				D1604BDE2E252FB4005C314F /* Sources */,
+				D1604BDF2E252FB4005C314F /* Frameworks */,
+				D1604BE02E252FB4005C314F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1604BE42E252FB4005C314F /* PBXTargetDependency */,
+			);
+			name = DolphinCafeTests;
+			packageProductDependencies = (
+			);
+			productName = DolphinCafeTests;
+			productReference = D1604BE22E252FB4005C314F /* DolphinCafeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1604BEB2E252FB4005C314F /* DolphinCafeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1604BFD2E252FB4005C314F /* Build configuration list for PBXNativeTarget "DolphinCafeUITests" */;
+			buildPhases = (
+				D1604BE82E252FB4005C314F /* Sources */,
+				D1604BE92E252FB4005C314F /* Frameworks */,
+				D1604BEA2E252FB4005C314F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1604BEE2E252FB4005C314F /* PBXTargetDependency */,
+			);
+			name = DolphinCafeUITests;
+			packageProductDependencies = (
+			);
+			productName = DolphinCafeUITests;
+			productReference = D1604BEC2E252FB4005C314F /* DolphinCafeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1604BC42E252FB2005C314F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					D1604BCB2E252FB2005C314F = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					D1604BE12E252FB4005C314F = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D1604BCB2E252FB2005C314F;
+					};
+					D1604BEB2E252FB4005C314F = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D1604BCB2E252FB2005C314F;
+					};
+				};
+			};
+			buildConfigurationList = D1604BC72E252FB2005C314F /* Build configuration list for PBXProject "DolphinCafe" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1604BC32E252FB2005C314F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D1604BCD2E252FB2005C314F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1604BCB2E252FB2005C314F /* DolphinCafe */,
+				D1604BE12E252FB4005C314F /* DolphinCafeTests */,
+				D1604BEB2E252FB4005C314F /* DolphinCafeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1604BCA2E252FB2005C314F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1604BE02E252FB4005C314F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1604BEA2E252FB4005C314F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1604BC82E252FB2005C314F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1604BDE2E252FB4005C314F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1604BE82E252FB4005C314F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1604BE42E252FB4005C314F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1604BCB2E252FB2005C314F /* DolphinCafe */;
+			targetProxy = D1604BE32E252FB4005C314F /* PBXContainerItemProxy */;
+		};
+		D1604BEE2E252FB4005C314F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1604BCB2E252FB2005C314F /* DolphinCafe */;
+			targetProxy = D1604BED2E252FB4005C314F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D1604BF62E252FB4005C314F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4A5Z3Q6BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DolphinCafe/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kemezhuk.DolphinCafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1604BF72E252FB4005C314F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4A5Z3Q6BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DolphinCafe/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kemezhuk.DolphinCafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1604BF82E252FB4005C314F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Z4A5Z3Q6BD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1604BF92E252FB4005C314F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Z4A5Z3Q6BD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1604BFB2E252FB4005C314F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4A5Z3Q6BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kemezhuk.DolphinCafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DolphinCafe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DolphinCafe";
+			};
+			name = Debug;
+		};
+		D1604BFC2E252FB4005C314F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4A5Z3Q6BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kemezhuk.DolphinCafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DolphinCafe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DolphinCafe";
+			};
+			name = Release;
+		};
+		D1604BFE2E252FB4005C314F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4A5Z3Q6BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kemezhuk.DolphinCafeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DolphinCafe;
+			};
+			name = Debug;
+		};
+		D1604BFF2E252FB4005C314F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4A5Z3Q6BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kemezhuk.DolphinCafeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DolphinCafe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1604BC72E252FB2005C314F /* Build configuration list for PBXProject "DolphinCafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1604BF82E252FB4005C314F /* Debug */,
+				D1604BF92E252FB4005C314F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1604BF52E252FB4005C314F /* Build configuration list for PBXNativeTarget "DolphinCafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1604BF62E252FB4005C314F /* Debug */,
+				D1604BF72E252FB4005C314F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1604BFA2E252FB4005C314F /* Build configuration list for PBXNativeTarget "DolphinCafeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1604BFB2E252FB4005C314F /* Debug */,
+				D1604BFC2E252FB4005C314F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1604BFD2E252FB4005C314F /* Build configuration list for PBXNativeTarget "DolphinCafeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1604BFE2E252FB4005C314F /* Debug */,
+				D1604BFF2E252FB4005C314F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1604BC42E252FB2005C314F /* Project object */;
+}
