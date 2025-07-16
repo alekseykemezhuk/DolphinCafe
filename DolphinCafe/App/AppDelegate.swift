@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  DolphinCafe
-//
-//  Created by Aleksey Kemezhuk on 14/07/2025.
-//
-
 import UIKit
 
 @main
