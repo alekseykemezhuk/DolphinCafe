@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D12173E72E2A7AB10070F1A2 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D12173E62E2A7AB10070F1A2 /* SnapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D1604BE32E252FB4005C314F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -75,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D12173E72E2A7AB10070F1A2 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +138,7 @@
 			);
 			name = DolphinCafe;
 			packageProductDependencies = (
+				D12173E62E2A7AB10070F1A2 /* SnapKit */,
 			);
 			productName = DolphinCafe;
 			productReference = D1604BCC2E252FB2005C314F /* DolphinCafe.app */;
@@ -210,6 +216,9 @@
 			);
 			mainGroup = D1604BC32E252FB2005C314F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D12173E52E2A7AB10070F1A2 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D1604BCD2E252FB2005C314F /* Products */;
 			projectDirPath = "";
@@ -573,6 +582,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D12173E52E2A7AB10070F1A2 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D12173E62E2A7AB10070F1A2 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D12173E52E2A7AB10070F1A2 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D1604BC42E252FB2005C314F /* Project object */;
 }
