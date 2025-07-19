@@ -6,7 +6,7 @@ class OnboardingContentViewController: UIViewController {
     // MARK: - Properties
 
     private let layout = OnboardingLayout.self
-    private let featureDescriptionlabel = UILabel()
+    private let featureDescriptionLabel = UILabel()
     private let gotItButton = UIButton(configuration: .filled())
     private let pageControl = UIPageControl()
     var featureDescription = ""
@@ -28,13 +28,13 @@ class OnboardingContentViewController: UIViewController {
     // MARK: - Flow Methods
 
     private func setupHierarchy() {
-        view.addSubview(featureDescriptionlabel)
+        view.addSubview(featureDescriptionLabel)
         view.addSubview(gotItButton)
         view.addSubview(pageControl)
     }
     
     private func setupConstraints() {
-        featureDescriptionlabel.snp.makeConstraints { make in
+        featureDescriptionLabel.snp.makeConstraints { make in
             make.center.equalToSuperview()
         }
         
@@ -51,9 +51,9 @@ class OnboardingContentViewController: UIViewController {
     }
     
     private func setupAppearance() {
-        featureDescriptionlabel.text = featureDescription
-        featureDescriptionlabel.font = .preferredFont(forTextStyle: .extraLargeTitle)
-        featureDescriptionlabel.numberOfLines = 0
+        featureDescriptionLabel.text = featureDescription
+        featureDescriptionLabel.font = .preferredFont(forTextStyle: .extraLargeTitle)
+        featureDescriptionLabel.numberOfLines = 0
         
         gotItButton.isHidden = !isLast
         gotItButton.setTitle("Got it!", for: .normal)
