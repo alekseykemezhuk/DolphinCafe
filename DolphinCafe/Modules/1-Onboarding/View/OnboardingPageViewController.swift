@@ -35,6 +35,7 @@ class OnboardingPageViewController: UIPageViewController {
         contentViewController.featureDescription = featureDescriptionArray[index]
         contentViewController.numberOfPages = featureDescriptionArray.count
         contentViewController.currentPageIndex = index
+        contentViewController.isLast = (index == featureDescriptionArray.count - 1)
         return contentViewController
     }
 }
