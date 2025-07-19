@@ -5,6 +5,7 @@ class OnboardingContentViewController: UIViewController {
     
     // MARK: - Properties
 
+    private let layout = OnboardingLayout.self
     private let featureDescriptionlabel = UILabel()
     private let gotItButton = UIButton(configuration: .filled())
     private let pageControl = UIPageControl()
@@ -38,9 +39,9 @@ class OnboardingContentViewController: UIViewController {
         }
         
         gotItButton.snp.makeConstraints { make in
-            make.bottom.equalTo(pageControl.snp.top).offset(-50)
-            make.leading.trailing.equalTo(view.safeAreaLayoutGuide).inset(100)
-            make.height.equalTo(gotItButton.snp.width).multipliedBy(0.25)
+            make.bottom.equalTo(pageControl.snp.top).offset(-layout.buttonBottomSpacing)
+            make.leading.trailing.equalTo(view.safeAreaLayoutGuide).inset(layout.buttonLeadingTrailing)
+            make.height.equalTo(gotItButton.snp.width).multipliedBy(layout.buttonHeightRatio)
         }
         
         pageControl.snp.makeConstraints { make in
