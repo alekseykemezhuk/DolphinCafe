@@ -1,7 +1,7 @@
 import UIKit
 import SnapKit
 
-class OnboardingPageViewController: UIPageViewController {
+class OnboardingMainViewController: UIPageViewController {
     
     // MARK: - Properties
     
@@ -42,7 +42,7 @@ class OnboardingPageViewController: UIPageViewController {
 
     // MARK: - DataSource
 
-extension OnboardingPageViewController: UIPageViewControllerDataSource {
+extension OnboardingMainViewController: UIPageViewControllerDataSource {
     
     func pageViewController(_ pageViewController: UIPageViewController,
                             viewControllerBefore viewController: UIViewController) -> UIViewController? {
