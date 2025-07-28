@@ -1,15 +1,13 @@
 import UIKit
 import SnapKit
 
-class OnboardingMainViewController: UIPageViewController {
+final class OnboardingMainViewController: UIPageViewController {
     
     // MARK: - Properties
     
-    private let featureDescriptionArray = [
-        "Test 1", "Test 2", "Test 3"
-    ]
+    private var viewModel = OnboardingMainViewModel()
     
-    // MARK: - VC Lifecycle
+    // MARK: - Init
 
     init() {
         super.init(transitionStyle: .scroll, navigationOrientation: .horizontal)
@@ -19,9 +17,13 @@ class OnboardingMainViewController: UIPageViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    // MARK: - VC Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+                
         dataSource = self
+        
         if let contentViewController = makeContentViewController(atIndex: 0) {
             setViewControllers([contentViewController], direction: .forward, animated: false)
         }
@@ -30,12 +32,13 @@ class OnboardingMainViewController: UIPageViewController {
     // MARK: - Flow Methods
 
     private func makeContentViewController (atIndex index: Int) -> OnboardingContentViewController? {
-        guard featureDescriptionArray.indices.contains(index) else { return nil }
-        let contentViewController = OnboardingContentViewController()
-        contentViewController.featureDescription = featureDescriptionArray[index]
-        contentViewController.numberOfPages = featureDescriptionArray.count
-        contentViewController.currentPageIndex = index
-        contentViewController.isLast = (index == featureDescriptionArray.count - 1)
+        guard viewModel.features.indices.contains(index) else { return nil }
+        let contentViewModel = OnboardingContentViewModel(
+            feature: viewModel.features[index],
+            numberOfPages: viewModel.numberOfFeatures,
+            currentPageIndex: index
+        )
+        let contentViewController = OnboardingContentViewController(viewModel: contentViewModel)
         return contentViewController
     }
 }
@@ -48,7 +51,7 @@ extension OnboardingMainViewController: UIPageViewControllerDataSource {
                             viewControllerBefore viewController: UIViewController) -> UIViewController? {
         guard let contentViewController = viewController as? OnboardingContentViewController else {
             return UIViewController() }
-        let currentPageIndex = contentViewController.currentPageIndex
+        let currentPageIndex = contentViewController.viewModel.currentPageIndex
         let previousPageIndex = currentPageIndex - 1
         return makeContentViewController(atIndex: previousPageIndex)
     }
@@ -57,7 +60,7 @@ extension OnboardingMainViewController: UIPageViewControllerDataSource {
                             viewControllerAfter viewController: UIViewController) -> UIViewController? {
         guard let contentViewController = viewController as? OnboardingContentViewController else {
             return UIViewController() }
-        let currentPageIndex = contentViewController.currentPageIndex
+        let currentPageIndex = contentViewController.viewModel.currentPageIndex
         let nextPageIndex = currentPageIndex + 1
         return makeContentViewController(atIndex: nextPageIndex)
     }
