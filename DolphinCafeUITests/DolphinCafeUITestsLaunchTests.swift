@@ -1,9 +1,4 @@
 //
-//  DolphinCafeUITestsLaunchTests.swift
-//  DolphinCafeUITests
-//
-//  Created by Aleksey Kemezhuk on 14/07/2025.
-//
 
 import XCTest
 
