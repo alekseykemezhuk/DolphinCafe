@@ -1,9 +1,4 @@
 //
-//  DolphinCafeTests.swift
-//  DolphinCafeTests
-//
-//  Created by Aleksey Kemezhuk on 14/07/2025.
-//
 
 import Testing
 @testable import DolphinCafe
